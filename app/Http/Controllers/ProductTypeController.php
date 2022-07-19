@@ -20,6 +20,7 @@ class ProductTypeController extends Controller
     }
 
     public function insert_action (Request $request){
+        $i = 1;
         $newType = new ProductType();
         $newType -> name = $request -> input('typename');
         $newType -> save();
