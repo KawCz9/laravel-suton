@@ -217,11 +217,11 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
 
-          <li class="nav-item menu-open">
+          <li class="nav-item">
             <a href="#" class="nav-link ">
               <i class="nav-icon fas fa-box"></i>
               <p>
-                Products
+                สินค้าทั้งหมด
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -229,19 +229,13 @@
               <li class="nav-item">
                 <a href="/" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Product</p>
+                  <p>สินค้า</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/product/insert" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Insert Product</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v3</p>
+                  <p>เพิ่มข้อมูลสินค้า</p>
                 </a>
               </li>
             </ul>
@@ -250,7 +244,7 @@
             <a href="pages/widgets.html" class="nav-link">
               <i class="nav-icon fas fas fa-archive"></i>
               <p>
-                Type
+                ประเภทสินค้า
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -258,19 +252,13 @@
                 <li class="nav-item">
                   <a href="/type" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Type All</p>
+                    <p>ประเภทสินค้าทั้งหมด</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/product/insert" class="nav-link">
+                  <a href="/type/insert" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Insert Type</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="./index3.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Dashboard v3</p>
+                    <p>เพิ่มประเภทสินค้าทั้งหมด</p>
                   </a>
                 </li>
               </ul>
@@ -959,7 +947,7 @@
       return e.href == url;
     });
 
-    if (currentLink.length > 0) { 
+    if (currentLink.length > 0) {
         currentLink[0].classList.add("active");
         currentLink[0].closest(".nav-treeview").style.display = "block";
         currentLink[0].closest(".has-treeview").classList.add("active");

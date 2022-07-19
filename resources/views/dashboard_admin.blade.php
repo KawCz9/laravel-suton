@@ -67,18 +67,18 @@
                   <table id="example1" class="table table-bordered table-striped">
                     <thead>
                         <tr>
-                            <th>Id</th>
-                            <th>Image</th>
-                            <th>Name</th>
-                            <th>Type</th>
-                            <th>Scale</th>
-                            <th>Number</th>
-                            <th>Case</th>
-                            <th>Item</th>
-                            <th>Price</th>
-                            <th>Cost</th>
-                            <th>Barcode</th>
-                            <th>Tool</th>
+                            <th>ลำดับ</th>
+                            <th>ภาพ</th>
+                            <th>ชื่อสินค้า</th>
+                            <th>ประเภทสินค้า</th></th>
+                            <th>ขนาด</th>
+                            <th>เบอร์</th>
+                            <th>บรรจุ</th>
+                            <th>จำนวน</th>
+                            <th>ราคา</th>
+                            <th>ต้นทุน</th>
+                            <th>บาร์โค้ด</th>
+                            <th>เครื่องมือ</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -129,7 +129,7 @@
     $(function () {
       $("#example1").DataTable({
         "responsive": true, "lengthChange": false, "autoWidth": false,
-        "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+        "buttons": ["copy", "csv", "excel", "print", "colvis"]
       }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
       $('#example2').DataTable({
         "paging": true,
