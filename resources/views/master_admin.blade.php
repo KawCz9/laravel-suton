@@ -258,7 +258,7 @@
                 <li class="nav-item">
                   <a href="/type/insert" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>เพิ่มประเภทสินค้าทั้งหมด</p>
+                    <p>เพิ่มประเภทสินค้าทั้งหมดดด</p>
                   </a>
                 </li>
               </ul>
